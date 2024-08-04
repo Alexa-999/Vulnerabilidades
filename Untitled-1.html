@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head> 
+ 
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title> 
+    <head>
+        <style>
+            div {
+                color: green;
+                cursor: all-scroll;
+                border: solid 2px red;
+                margin: 10% 30%;
+                width: 30%;
+            }
+        </style>
+    </head>
+</head>
+<body>
+
+    <h1>Login de Usuario</h1>
+    <form action="servitech_login.php" method="post">
+        <label for="login_username">Nombre de Usuario:</label>
+        <input type="text" id="login_username" name="username" required>
+        <br>
+        <label for="login_password">Contraseña:</label>
+        <input type="password" id="login_password" name="password" required>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

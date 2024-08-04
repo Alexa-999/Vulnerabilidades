@@ -1,0 +1,104 @@
+/* Estilos globales */
+
+body {
+
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20;
+    padding: 5;
+    line-height: 1.9;
+    color: #050435;
+    background-color: #6195e4;
+}
+
+header {
+    background: #1b1925;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 38;
+    font-size: 2rem;
+}
+
+header nav {
+    margin-top: 5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 15;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: lighter ;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    text-shadow: #b1920bc5;
+}
+
+.container {
+    width: 85%;
+    max-width: 12000px;
+    margin:  auto;
+    padding: 0 1rem;
+}
+
+section {
+    padding: 2rem 0;
+    background: #e8ecfa;
+    margin: 1rem 0;
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #090a68;
+}
+
+ul {
+    margin: 2;
+    padding: 0;
+    list-style-type: disc;
+}
+
+ul li {
+    margin: 2% 0;
+}
+
+footer {
+    background: #1b1925;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 12;
+}
+
+/* Estilos para los botones en el encabezado */
+h1 button {
+    background-color: #076affe7; /* Color azul para el botón */
+    border: <line-style> <color>  ;
+    color: white;
+    padding: 7px 7px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 90px;
+    font-size: 19px;
+}
+
+h1 button:hover {
+    background-color: #4cae4c; /* Color verde más oscuro para hover */

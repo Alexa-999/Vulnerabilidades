@@ -1,0 +1,23 @@
+Claro, para cambiar el sombreado del texto `h2` de naranja a azul, puedes ajustar la propiedad `text-shadow` con un color azul. Aquí tienes el código CSS actualizado con el nuevo sombreado azul:
+
+
+body {
+    background: url(celulares3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: rgba(111, 23, 227, 0.837); /* Fallback color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+h2 {
+    text-shadow: 7px 4px 5px rgba(0, 0, 255, 0.81); /* Cambiado a azul */
+}
+
+- **`text-shadow: 7px 4px 5px rgba(0, 0, 255, 0.81);`**:
