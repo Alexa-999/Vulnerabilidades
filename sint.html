@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-form {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #b3d9ff;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .login-form:hover {
+            box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+            transform: scale(1.02);
+        }
+        .login-form h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #007bff;
+        }
+        .login-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        .login-form input[type="text"], 
+        .login-form input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #b3d9ff;
+            border-radius: 8px;
+            box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .login-form input[type="text"]:focus, 
+        .login-form input[type="password"]:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: inset 0px 2px 6px rgba(0, 123, 255, 0.2);
+        }
+        .login-form input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .login-form input[type="submit"]:hover {
+            background-color: #0056b3;
+            transform: scale(1.02);
+        }
+        .login-form input[type="submit"]:focus {
+            outline: none;
+            box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <form class="login-form" action="servitech_login.php" method="post">
+        <h1>Login de Usuario</h1>
+        <label for="login_username">Nombre de Usuario:</label>
+        <input type="text" id="login_username" name="username" required>
+        
+        <label for="login_password">Contraseña:</label>
+        <input type="password" id="login_password" name="password" required>
+        
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>
+
